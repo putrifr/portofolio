@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="id">
+<header>
+    <div class="profile-header">
+
+        <img src="putri/foto.jpg"
+             alt="Foto Putri Faijatul Rosyida"
+             class="profile-photo">
+
+        <div class="profile-info">
+            <h1>PUTRI FAIJATUL ROSYIDA</h1>
+            <p>Admin • Host Live • Pramuniaga • Fotografer • Operator Produksi</p>
+        </div>
+
+    </div>
+</header>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+.profile-header{
+    display:flex;
+    align-items:center;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+.profile-photo{
+    width:180px;
+    height:220px;
+    object-fit:cover;
+    border-radius:15px;
+    border:4px solid #2563eb;
+    box-shadow:0 4px 15px rgba(0,0,0,.15);
+}
+
+.profile-info{
+    flex:1;
+}
+
+@media(max-width:768px){
+    .profile-header{
+        justify-content:center;
+        text-align:center;
+    }
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#f4f6f9;
+    color:#333;
+    line-height:1.6;
+}
+
+header{
+    background:linear-gradient(135deg,#0f172a,#1e3a8a);
+    color:white;
+    text-align:center;
+    padding:70px 20px;
+}
+
+header h1{
+    font-size:42px;
+}
+
+header p{
+    margin-top:10px;
+    opacity:.9;
+}
+
+.container{
+    max-width:1000px;
+    margin:auto;
+    padding:30px 20px;
+}
+
+.card{
+    background:#fff;
+    padding:30px;
+    border-radius:15px;
+    margin-bottom:25px;
+    box-shadow:0 4px 15px rgba(0,0,0,.08);
+}
+
+h2{
+    color:#1e3a8a;
+    margin-bottom:20px;
+    border-bottom:3px solid #2563eb;
+    display:inline-block;
+    padding-bottom:5px;
+}
+
+.profile{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:10px;
+}
+
+.timeline{
+    border-left:3px solid #2563eb;
+    padding-left:25px;
+}
+
+.job{
+    margin-bottom:30px;
+    position:relative;
+}
+
+.job::before{
+    content:'';
+    width:14px;
+    height:14px;
+    border-radius:50%;
+    background:#2563eb;
+    position:absolute;
+    left:-33px;
+    top:6px;
+}
+
+.job h3{
+    color:#111827;
+}
+
+.period{
+    color:#64748b;
+    font-size:14px;
+    margin-bottom:8px;
+}
+
+ul{
+    padding-left:18px;
+}
+
+.skills{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+    gap:15px;
+}
+
+.skill{
+    background:#eff6ff;
+    text-align:center;
+    padding:12px;
+    border-radius:10px;
+    font-weight:500;
+}
+
+.contact{
+    text-align:center;
+}
+
+.whatsapp-btn{
+    display:inline-block;
+    margin-top:15px;
+    padding:14px 25px;
+    background:#25D366;
+    color:white;
+    text-decoration:none;
+    border-radius:10px;
+    font-weight:600;
+}
+
+.whatsapp-btn:hover{
+    opacity:.9;
+}
+
+footer{
+    background:#0f172a;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+@media(max-width:768px){
+header h1{
+font-size:30px;
+}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>PUTRI FAIJATUL ROSYIDA</h1>
+    <p>Admin • Host Live • Pramuniaga • Fotografer • Operator Produksi</p>
+</header>
+
+<div class="container">
+
+    <div class="card">
+        <h2>Tentang Saya</h2>
+        <p>
+            Saya memiliki pengalaman di bidang administrasi, host live streaming,
+            pelayanan pelanggan, fotografi, editing, dan produksi. Mampu bekerja
+            secara individu maupun tim dengan komunikasi yang baik serta memiliki
+            kemampuan beradaptasi yang cepat.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>Data Pribadi</h2>
+        <div class="profile">
+            <p><strong>Nama :</strong> Putri Faijatul Rosyida</p>
+            <p><strong>Lahir :</strong> Gresik, 22 September 2003</p>
+            <p><strong>Jenis Kelamin :</strong> Perempuan</p>
+            <p><strong>Status :</strong> Belum Menikah</p>
+            <p><strong>Kewarganegaraan :</strong> Indonesia</p>
+            <p><strong>Alamat :</strong> Ds. Beton, Gresik</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>Pendidikan</h2>
+        <ul>
+            <li>SMK Al-Azhar (2019 - 2021)</li>
+            <li>SMP Al-Azhar (2016 - 2018)</li>
+            <li>MI Roudlotus Shibyan (2010 - 2015)</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>Pengalaman Kerja</h2>
+
+        <div class="timeline">
+
+            <div class="job">
+                <h3>Admin & Host Live - UD. MJ Spons</h3>
+                <div class="period">Januari 2025 - Mei 2026</div>
+                <ul>
+                    <li>Mengelola administrasi dan stok barang.</li>
+                    <li>Melayani pelanggan melalui chat dan live.</li>
+                    <li>Mempromosikan produk serta membantu penjualan.</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <h3>Pramuniaga - Kampoeng Roti</h3>
+                <div class="period">Januari 2024 - Desember 2024</div>
+                <ul>
+                    <li>Melayani pelanggan dan membantu transaksi.</li>
+                    <li>Menata display serta mengelola stok produk.</li>
+                    <li>Menjaga kebersihan area toko.</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <h3>Fotografer & Editor - Studio Photoera</h3>
+                <div class="period">Oktober 2022 - Desember 2023</div>
+                <ul>
+                    <li>Melakukan sesi pemotretan klien.</li>
+                    <li>Mengedit dan retouching hasil foto.</li>
+                    <li>Menjaga kualitas hasil foto sesuai standar.</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <h3>Karyawan Produksi - PT Keramik Diamond Industri</h3>
+                <div class="period">Juni 2022 - September 2022</div>
+                <ul>
+                    <li>Menyortir dan memeriksa kualitas produk.</li>
+                    <li>Mengelompokkan produk sesuai standar.</li>
+                    <li>Mendukung proses produksi harian.</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <h3>Karyawan Produksi - PT Kernel</h3>
+                <div class="period">Juli 2021 - Juni 2022</div>
+                <ul>
+                    <li>Melakukan pengamplasan produk kayu.</li>
+                    <li>Memastikan kualitas hasil produksi.</li>
+                    <li>Mendukung kelancaran proses produksi.</li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>Keahlian</h2>
+
+        <div class="skills">
+            <div class="skill">Administrasi</div>
+            <div class="skill">Host Live</div>
+            <div class="skill">Customer Service</div>
+            <div class="skill">Microsoft Office</div>
+            <div class="skill">Fotografi</div>
+            <div class="skill">Editing Foto</div>
+            <div class="skill">Komunikasi</div>
+            <div class="skill">Kerja Sama Tim</div>
+        </div>
+    </div>
+
+    <div class="card contact">
+        <h2>Kontak</h2>
+
+        <p>📧 putrifaijatulrs@gmail.com</p>
+        <p>📱 0857-3222-0312</p>
+
+        <a class="whatsapp-btn"
+        href="https://wa.me/6285732220312?text=Halo%20Putri%20Faijatul%20Rosyida,%20saya%20tertarik%20dengan%20profil%20Anda."
+        target="_blank">
+        Hubungi via WhatsApp
+        </a>
+
+    </div>
+
+</div>
+
+<footer>
+    © 2026 | Portofolio Putri Faijatul Rosyida
+</footer>
+
+</body>
+</html>
